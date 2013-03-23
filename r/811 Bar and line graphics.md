@@ -2,8 +2,7 @@
 ## 8.1 Graphs with ggplot2
 ### 8.1.1 Scatterplots
 
-```r
-<<<<<<< HEAD
+```
 # データを作成
 set.seed(955)
 dat <- data.frame(cond = rep(c("A", "B"), each=10),
@@ -14,7 +13,7 @@ library(ggplot2)
 # 散布図
 ggplot(dat, aes(x=xvar, y=yvar)) + 
   geom_point(shape=1)      # Use hollow circles
-=======
+
 > # データを作成
 > set.seed(955)
 > dat <- data.frame(cond = rep(c("A", "B"), each=10),
